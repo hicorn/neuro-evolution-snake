@@ -21,10 +21,8 @@ Weak connections don't linger. Any synapse with a strength below 0.01 gets prune
 And the whole thing compresses into a string. The full genome — every neuron, every connection, every parameter — gets packed into a base-26 string with a checksum. You could email a snake brain.
 
 🏆 The result
-Field size: 20×20. Record: 86 apples in one life. The snake learned to avoid itself, plan efficient routes, and escape dead ends — all through evolution alone. Nobody programmed those behaviors. They emerged.
+Field size: 20×20. Record: 86 apples in one life. The snake learned to avoid itself, plan efficient routes, and escape dead ends - all through evolution alone. Nobody programmed those behaviors. They emerged.
 
-🚀 Run it yourself
-All you need is Rust 1.70+. No GPU, no CUDA, no cloud. Just your machine and a bit of curiosity.
 
 bash:
 git clone https://github.com/hicorn/neuro-evolution-snake.git
