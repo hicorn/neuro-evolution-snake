@@ -27,7 +27,7 @@ Field size: 20×20. Record: 86 apples in one life. The snake learned to avoid it
 All you need is Rust 1.70+. No GPU, no CUDA, no cloud. Just your machine and a bit of curiosity.
 
 bash:
-git clone https://github.com/hicorn/bio-brain-snake.git
+git clone https://github.com/hicorn/neuro-evolution-snake.git
 cd bio-brain-snake
 cargo build --release
 cargo run --release
