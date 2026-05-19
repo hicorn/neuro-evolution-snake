@@ -182,10 +182,22 @@ impl Synapse {
     }
 }
 
+#[derive(Clone, Copy, PartialEq)]
+enum SenT { Wall, Food, Body }
 
+struct Sensor { id: u32, typ: SenT, dir: u8, val: f64 }
 
 impl Sensor { fn new(id: u32, t: SenT, d: u8) -> Self { Self { id, typ: t, dir: d, val: 0. } } }
 
+#[derive(Clone, Default)]
+struct SnakeStats {
+    max_len: usize,
+    total_food: usize,
+    avg_steps: f64,
+    loop_avoidance: f64,
+    wall_collisions: usize,
+    self_collisions: usize,
+}
 
 struct Brain {
     neurons: HashMap<u32, Neuron>, syns: Vec<Synapse>, sens: Vec<Sensor>,

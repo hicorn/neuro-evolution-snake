@@ -1,0 +1,14 @@
+```rust
+target/
+**/*.rs.bk
+*.lock
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+.env
+.env.local
+.env.*
+```
